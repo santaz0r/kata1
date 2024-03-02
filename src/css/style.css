@@ -1,0 +1,12 @@
+/* comment */
+.test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.test2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
