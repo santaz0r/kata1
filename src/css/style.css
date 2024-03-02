@@ -1,4 +1,9 @@
 /* comment */
+
+* {
+  font-family: "TT Lakes", sans-serif;
+  font-weight: normal;
+}
 .test {
   display: -webkit-box;
   display: -ms-flexbox;
