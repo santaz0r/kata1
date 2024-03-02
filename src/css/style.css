@@ -1,17 +1,17 @@
-/* comment */
-
 * {
   font-family: "TT Lakes", sans-serif;
   font-weight: normal;
-}
-.test {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.test2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+  margin: 0;
 }
