@@ -3,68 +3,135 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <base href="/" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>CPS services</title>
   </head>
   <body>
     <header class="header">
-      <div class="header__wrapper">
-        <div class="header__item">
-          <div class="header__button button">
-            <img src="./assets/icons/burger-icon.svg" alt="burger-icon" />
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__item">
+            <button class="header__button button">
+              <div class="button__img">
+                <img src="./assets/icons/burger-icon.svg" alt="burger-icon" />
+              </div>
+              <span>some text</span>
+            </button>
           </div>
-        </div>
-        <div class="header__item">
-          <div class="header__logo logo">
-            <img src="./assets/icons/logo-icon.svg" alt="logo-icon" />
+          <div class="header__item">
+            <div class="header__logo logo">
+              <img src="./assets/icons/logo-icon.svg" alt="logo-icon" />
+            </div>
+            <div class="button__wrapper">
+              <button class="header__button button">
+                <div class="button__img">
+                  <img src="./assets/icons/phone-icon.svg" alt="phone-icon" />
+                </div>
+                <span>some text</span>
+              </button>
+              <button class="header__button button">
+                <div class="button__img">
+                  <img
+                    src="./assets/icons/message-icon.svg"
+                    alt="message-icon"
+                  />
+                </div>
+                <span>some text</span>
+              </button>
+              <button class="header__button button">
+                <div class="button__img">
+                  <img
+                    src="./assets/icons/profile-icon.svg"
+                    alt="profile-icon"
+                  />
+                </div>
+                <span>some text</span>
+              </button>
+            </div>
           </div>
-        </div>
-        <div class="header__item">
-          <div class="header__button button">
-            <img src="./assets/icons/repair.svg" alt="repair-icon" />
-          </div>
-          <div class="header__button button">
-            <img src="./assets/icons/check-icon.svg" alt="check-icon" />
+          <div class="header__item">
+            <button class="header__button button">
+              <div class="button__img">
+                <img src="./assets/icons/repair.svg" alt="repair-icon" />
+              </div>
+              <span>some text</span>
+            </button>
+            <button class="header__button button">
+              <div class="button__img">
+                <img src="./assets/icons/check-icon.svg" alt="check-icon" />
+              </div>
+              <span>some text</span>
+            </button>
           </div>
         </div>
       </div>
     </header>
     <section class="info">
-      <h2 class="info__subtitle subtitle">Услуги и сервисы</h2>
-      <nav class="info__navigation navigation">
-        <li class="navigation__item navigation__item--active">
-          <a href="">Ремонтируемые устройства</a>
-        </li>
-        <li class="navigation__item">
-          <a href="">Дополнительные услуги</a>
-        </li>
-        <li class="navigation__item">
-          <a href="">Цены на услуги</a>
-        </li>
-        <li class="navigation__item">
-          <a href="">Адреса сервисных центров</a>
-        </li>
-        <li class="navigation__item">
-          <a href="">Специальные цены</a>
-        </li>
-        <li class="navigation__item">
-          <a href="">Отзывы</a>
-        </li>
-      </nav>
-      <div class="info__description">
-        Мы являемся авторизованным сервисным центром по ремонту техники Dell.
-        Только у нас вы можете отремонтировать свой ноутбук Dell с официальной
-        гарантией производителя.
-      </div>
-      <div class="info__accordion accordion">
-        <button class="accordion__img">
-          <img src="./assets/icons/expand.svg" alt="arrows" />
-        </button>
-        <div class="accordion__text">Читать далее</div>
+      <div class="container">
+        <div class="info__subtitle subtitle">
+          <h2 class="subtitle__text">Услуги и сервисы</h2>
+          <div class="subtitle__buttons">
+            <button class="header__button button">
+              <div class="button__img">
+                <img src="./assets/icons/repair.svg" alt="repair-icon" />
+              </div>
+              <span>Оставить заявку</span>
+            </button>
+            <button class="header__button button">
+              <div class="button__img">
+                <img src="./assets/icons/check-icon.svg" alt="check-icon" />
+              </div>
+              <span>Статус ремонта</span>
+            </button>
+          </div>
+        </div>
+        <nav class="info__navigation navigation">
+          <li class="navigation__item navigation__item--active">
+            <a href="">Ремонтируемые устройства</a>
+          </li>
+          <li class="navigation__item">
+            <a href="">Дополнительные услуги</a>
+          </li>
+          <li class="navigation__item">
+            <a href="">Цены на услуги</a>
+          </li>
+          <li class="navigation__item">
+            <a href="">Адреса сервисных центров</a>
+          </li>
+          <li class="navigation__item">
+            <a href="">Специальные цены</a>
+          </li>
+          <li class="navigation__item">
+            <a href="">Отзывы</a>
+          </li>
+        </nav>
+        <div class="info__description description">
+          <div class="description__item">
+            <div class="description__text">
+              <p>
+                Мы являемся авторизованным сервисным центром по ремонту техники
+                Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+                официальной гарантией производителя.
+              </p>
+              <p>
+                Мы успешно работаем с 1992 года и заслужили репутацию надежного
+                партнера, что подтверждает большое количество постоянных
+                клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям
+                и, в свою очередь, советуют нас родным и близким.
+              </p>
+            </div>
+            <div class="info__accordion accordion">
+              <button class="accordion__img">
+                <img src="./assets/icons/expand.svg" alt="arrows" />
+              </button>
+              <div class="accordion__text">Читать далее</div>
+            </div>
+          </div>
+          <div class="description__image"></div>
+        </div>
+        <div class="info__image"></div>
       </div>
     </section>
-    <section class="image"></section>
   </body>
 </html>
